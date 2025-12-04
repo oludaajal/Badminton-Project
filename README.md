@@ -55,7 +55,7 @@ Run:
 Place `wd.csv` (women’s doubles data) in the project folder.
 
 ### 3. **Run Analysis**
-In your notebook or script:
+In the notebook or script:
 ```python
 from badminton_analysis import (
     delete_playerIDs,
