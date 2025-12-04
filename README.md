@@ -5,7 +5,7 @@ This project investigates whether a home-country advantage exists in professiona
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset used in this project comes from Kaggle:
 
@@ -16,7 +16,7 @@ Only **completed matches** were used. Retired or unfinished matches were removed
 
 ---
 
-## 📊 Key Measures
+## Key Measures
 
 The analysis computes:
 
@@ -42,11 +42,11 @@ Compares results across:
 
 ---
 
-## 🧠 Project Structure
+## Project Structure
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
 ### 1. **Install Dependencies**
 Run:
@@ -57,7 +57,7 @@ Place `wd.csv` (women’s doubles data) in the project folder.
 ### 3. **Run Analysis**
 In the notebook or script:
 ```python
-from badminton_analysis import (
+from functions import (
     delete_playerIDs,
     change_country_names,
     check_home_country,
@@ -72,7 +72,7 @@ from badminton_analysis import (
 # Load dataset
 df = pd.read_csv("wd.csv")
 
-# Apply your cleaning and analysis steps...
+# Apply the cleaning and analysis steps...
 #for example
 plot_top5_countries(df)
 
