@@ -16,7 +16,7 @@ Only **completed matches** were used. Retired or unfinished matches were removed
 
 ---
 
-## Key Measures
+## Key Metrics
 
 The analysis computes:
 
@@ -49,7 +49,7 @@ Compares results across:
 ## Running the Project
 
 ### 1. **Install Dependencies**
-Run:
+Run: requirements.txt
 
 ### 2. **Load Dataset**
 Place `wd.csv` (women’s doubles data) in the project folder.
