@@ -22,7 +22,7 @@ The analysis computes:
 
 ### 1. **Home vs. Away Win Rates**
 - Identifies whether each team is competing in its home country.
-- Calculates win rate:
+- Calculated win rate: percentage of wins per team type
 
 ### 2. **Point Differential**
 Difference between points scored and points conceded:
@@ -39,10 +39,6 @@ Compares results across:
 ### 4. **Statistical Tests**
 - **Chi-square test** for independence of home/away and win/loss  
 - **Welch’s t-test** comparing point differentials
-
----
-
-## Project Structure
 
 ---
 
